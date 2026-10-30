@@ -20,6 +20,7 @@ func main() {
 		fmt.Println(i)
 	}
 	wg.Wait()
+	fmt.Println("done")
 }
 
 func double(a int, c chan int) {
